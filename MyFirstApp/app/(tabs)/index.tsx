@@ -96,3 +96,14 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
+
+// Basic Scripting Submission
+const myName = "Sei";
+
+const greet = (name) => {
+return `Hi, I know who you are. ${name}, right?`;
+};
+
+const classmates = ["Cyrus", "Jero", "Julia", "Kristel", "Marga"];
+
+classmates.map(name => greet(name));
